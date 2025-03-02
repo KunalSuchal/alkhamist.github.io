@@ -3,7 +3,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: url('https://github.com/KunalSuchal/alkhamist.github.io/blob/main/background.jpg') no-repeat center center fixed;
+   background: url('https://raw.githubusercontent.com/KunalSuchal/alkhamist.github.io/main/background.jpg') no-repeat center center fixed;
     background-size: cover;
     text-align: center;
     font-family: 'Dancing Script', cursive;
