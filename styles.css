@@ -1,10 +1,56 @@
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #f4f4f4;
-    padding: 50px;
+    background: linear-gradient(135deg, #141E30, #243B55);
+    color: white;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
-h1 {
-    color: #333;
+/* Main Container */
+.container {
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 10px;
 }
+
+/* Heading */
+h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+/* Tagline */
+.tagline {
+    font-size: 20px;
+    font-weight: 300;
+    opacity: 0.8;
+}
+
+/* Subtext */
+.subtext {
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+/* Contact Button */
+.contact-btn {
+    text-decoration: none;
+    display: inline-block;
+    background: #FFD700;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.contact-btn:hover {
+    background: #FFA500;
+}
+
