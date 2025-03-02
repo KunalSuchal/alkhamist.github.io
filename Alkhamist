@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alkhamist</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        h1 {
+            font-size: 3em;
+            letter-spacing: 2px;
+        }
+        p {
+            font-size: 1.2em;
+            opacity: 0.8;
+            max-width: 600px;
+            line-height: 1.5;
+        }
+        .contact {
+            margin-top: 20px;
+            font-size: 1em;
+            color: #FFD700;
+            text-decoration: none;
+            border: 1px solid #FFD700;
+            padding: 10px 20px;
+            display: inline-block;
+            border-radius: 5px;
+        }
+        .contact:hover {
+            background: #FFD700;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <h1>Alkhamist</h1>
+    <p>A name of vision, exclusivity, and endless possibilities.</p>
+    <a href="mailto:your@email.com" class="contact">Contact for inquiries</a>
+</body>
+</html>
